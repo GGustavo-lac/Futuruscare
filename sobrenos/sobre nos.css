@@ -272,4 +272,121 @@ body {
 
 .btn-primary:hover {
     background-color: #7a1fd4;
+
+}
+/* ===== RODAPÉ/FOOTER ===== */
+.footer {
+    background-color: #0c1220;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 20px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo e informações da marca */
+.footer-brand {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    max-width: 220px;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Informações de contato */
+.footer-contact p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Redes sociais */
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+    display: inline-flex;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    background: #c03ee7;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 75, 92, 0.4);
+}
+
+/* Links rápidos e serviços */
+.footer-links, .footer-services {
+    flex: 1 1 150px;
+    margin-bottom: 20px;
+}
+
+.footer-links h4, .footer-services h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul, .footer-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .footer-services li {
+    margin-bottom: 12px;
+}
+
+.footer-links a, .footer-services a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover, .footer-services a:hover {
+    text-decoration: underline;
+}
+
+/* Parte inferior do rodapé */
+.footer-bottom {
+    border-top: 1px solid #444;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.footer-bottom .heart {
+    color: #c03ee7;
 }
